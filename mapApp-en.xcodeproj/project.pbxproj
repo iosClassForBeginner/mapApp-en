@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041EA9591DD679E50079DD7F /* smaple.gif in Resources */ = {isa = PBXBuildFile; fileRef = 041EA9581DD679E50079DD7F /* smaple.gif */; };
+		04B6DD011DD586780084D927 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04B6DCFC1DD586780084D927 /* 1.gif */; };
+		04B6DD021DD586780084D927 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04B6DCFD1DD586780084D927 /* 2.gif */; };
+		04B6DD031DD586780084D927 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04B6DCFE1DD586780084D927 /* 3.gif */; };
+		04B6DD041DD586780084D927 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04B6DCFF1DD586780084D927 /* 4.gif */; };
+		04B6DD051DD586780084D927 /* 5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04B6DD001DD586780084D927 /* 5.gif */; };
 		04E22BAF1DD56AFB00390FDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E22BAE1DD56AFB00390FDE /* AppDelegate.swift */; };
 		04E22BB11DD56AFB00390FDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E22BB01DD56AFB00390FDE /* ViewController.swift */; };
 		04E22BB41DD56AFB00390FDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E22BB21DD56AFB00390FDE /* Main.storyboard */; };
@@ -15,6 +21,8 @@
 		04E22BBC1DD56AFB00390FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E22BBA1DD56AFB00390FDE /* LaunchScreen.storyboard */; };
 		04E22BC71DD56AFB00390FDE /* mapApp_enTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E22BC61DD56AFB00390FDE /* mapApp_enTests.swift */; };
 		04E22BD21DD56AFB00390FDE /* mapApp_enUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E22BD11DD56AFB00390FDE /* mapApp_enUITests.swift */; };
+		04E22BE11DD56C7D00390FDE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E22BE01DD56C7D00390FDE /* MapKit.framework */; };
+		04E22BE41DD56F4500390FDE /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E22BE31DD56F4500390FDE /* map.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041EA9581DD679E50079DD7F /* smaple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = smaple.gif; sourceTree = "<group>"; };
+		04B6DCFC1DD586780084D927 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		04B6DCFD1DD586780084D927 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		04B6DCFE1DD586780084D927 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		04B6DCFF1DD586780084D927 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		04B6DD001DD586780084D927 /* 5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 5.gif; sourceTree = "<group>"; };
 		04E22BAB1DD56AFB00390FDE /* mapApp-en.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mapApp-en.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E22BAE1DD56AFB00390FDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E22BB01DD56AFB00390FDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,8 @@
 		04E22BCD1DD56AFB00390FDE /* mapApp-enUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mapApp-enUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E22BD11DD56AFB00390FDE /* mapApp_enUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapApp_enUITests.swift; sourceTree = "<group>"; };
 		04E22BD31DD56AFB00390FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E22BE01DD56C7D00390FDE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04E22BE31DD56F4500390FDE /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E22BE11DD56C7D00390FDE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +96,12 @@
 		04E22BA21DD56AFB00390FDE = {
 			isa = PBXGroup;
 			children = (
+				04E22BE21DD56F4500390FDE /* Resourses */,
 				04E22BAD1DD56AFB00390FDE /* mapApp-en */,
 				04E22BC51DD56AFB00390FDE /* mapApp-enTests */,
 				04E22BD01DD56AFB00390FDE /* mapApp-enUITests */,
 				04E22BAC1DD56AFB00390FDE /* Products */,
+				04E22BDF1DD56C7C00390FDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +145,28 @@
 				04E22BD31DD56AFB00390FDE /* Info.plist */,
 			);
 			path = "mapApp-enUITests";
+			sourceTree = "<group>";
+		};
+		04E22BDF1DD56C7C00390FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E22BE01DD56C7D00390FDE /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04E22BE21DD56F4500390FDE /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				04E22BE31DD56F4500390FDE /* map.png */,
+				041EA9581DD679E50079DD7F /* smaple.gif */,
+				04B6DCFC1DD586780084D927 /* 1.gif */,
+				04B6DCFD1DD586780084D927 /* 2.gif */,
+				04B6DCFE1DD586780084D927 /* 3.gif */,
+				04B6DCFF1DD586780084D927 /* 4.gif */,
+				04B6DD001DD586780084D927 /* 5.gif */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +237,7 @@
 				TargetAttributes = {
 					04E22BAA1DD56AFB00390FDE = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3TNAJJ5Z2T;
 						ProvisioningStyle = Automatic;
 					};
 					04E22BC11DD56AFB00390FDE = {
@@ -235,8 +277,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E22BE41DD56F4500390FDE /* map.png in Resources */,
 				04E22BBC1DD56AFB00390FDE /* LaunchScreen.storyboard in Resources */,
 				04E22BB91DD56AFB00390FDE /* Assets.xcassets in Resources */,
+				04B6DD051DD586780084D927 /* 5.gif in Resources */,
+				041EA9591DD679E50079DD7F /* smaple.gif in Resources */,
+				04B6DD031DD586780084D927 /* 3.gif in Resources */,
+				04B6DD021DD586780084D927 /* 2.gif in Resources */,
+				04B6DD041DD586780084D927 /* 4.gif in Resources */,
+				04B6DD011DD586780084D927 /* 1.gif in Resources */,
 				04E22BB41DD56AFB00390FDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3TNAJJ5Z2T;
 				INFOPLIST_FILE = "mapApp-en/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ii.mapApp-en";
@@ -428,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3TNAJJ5Z2T;
 				INFOPLIST_FILE = "mapApp-en/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ii.mapApp-en";
@@ -509,6 +560,7 @@
 				04E22BD81DD56AFB00390FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E22BD91DD56AFB00390FDE /* Build configuration list for PBXNativeTarget "mapApp-enTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +569,7 @@
 				04E22BDB1DD56AFB00390FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E22BDC1DD56AFB00390FDE /* Build configuration list for PBXNativeTarget "mapApp-enUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +578,7 @@
 				04E22BDE1DD56AFB00390FDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
