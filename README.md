@@ -1,5 +1,4 @@
 # Code Togather: Let's make iPhone app in an hour
-## Mapp app
 
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/smaple.gif" /></div>
   
@@ -20,16 +19,16 @@
 
 #### 1, Design app
 > 1-1. Drap & Drop "MapView" from UI components
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/1.gif" /></div>
-
-> 1-2. Resize MapView
 <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/2.gif" /></div>
 
-> 1-3. Set Auto-layout for adjusting frame depends on devices
+> 1-2. Resize MapView
 <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/3.gif" /></div>
 
-> 1-4. Connect UI components to ViewController.swift
+> 1-3. Set Auto-layout for adjusting frame depends on devices
 <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/4.gif" /></div>
+
+> 1-4. Connect UI components to ViewController.swift
+<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/5.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
   
