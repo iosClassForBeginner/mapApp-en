@@ -1,75 +1,79 @@
 # Code Togather: Let's make iPhone app in an hour
 ## Mapp app
 
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/sampleDateApp/blob/master/Assets/sample.png" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/smaple.gif" /></div>
   
   Thank you for visiting the account. We are going to make simple mapp app in an hour. If you like to study yourself beforehands, or review about what you'd learned, please use the material.
   
-## We are looking forward to seeing you.
+## We are providing free hands-on on a monthly basis
   Meetup  
   https://www.meetup.com/iOS-Development-Meetup-for-Beginner/
   
-## 別途アプリ教室(有料)も開いております  
-  http://learning-ios-dev.esy.es/  
-
-## 問い合わせ
-  株式会社ジーライブ
-  http://geelive-inc.com  
+## We also held face-to-face or group lesson for someone interested in making iOS app themselves
+  http://ios-class-for-beginner.esy.es/
 
 ## アプリ作成手順
 
-#### 0, アプリ開発準備
-> 0-1. Auto Layout, Size ClassesをOFFにします
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/sampleDateApp/blob/master/Assets/0.gif" /></div>
+#### 0, Import nessesary frameworks
+> 0-1. Add "MappKit" Framework
+<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/1.gif" /></div>
 
-#### 1, Storyboardで、アプリのデザイン
-> 1-1. main.storyboardを選択し、UI部品からUILabel, UIDatePicker, UIButtonを配置します。(ドラッグ&ドロップ)
+#### 1, Design app
+> 1-1. Drap & Drop "MapView" from UI components
+<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/1.gif" /></div>
 
-> 1-2. StoryboardのUILabelを、ViewController.swiftに紐づけます
+> 1-2. Resize MapView
+<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/2.gif" /></div>
 
-> 1-3. StoryboardのUIDatePickerを、ViewController.swiftに紐づけます
+> 1-3. Set Auto-layout for adjusting frame depends on devices
+<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/3.gif" /></div>
 
-> 1-4. StoryboardのUIButtonを、ViewController.swiftに紐づけます（actionで）
+> 1-4. Connect UI components to ViewController.swift
+<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/4.gif" /></div>
 
-#### 2, ViewController.swiftにコード記述
-- 以下コードブロックを記入
+#### 3, Add code blocks in ViewController.swift
   
-```Swift
+```Swift  
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var myDate: UIDatePicker!
-    @IBOutlet weak var myLabel: UILabel!
-    override func viewDidLoad() {
+    @IBOutlet var myMap: MKMapView!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Setup latitude and longitude
+        let location = CLLocationCoordinate2DMake(49.28061, -123.122463)
+        myMap.setCenter(location,animated: true)
+        
+        // Setup a reduced scale
+        var region = myMap.region
+        region.center = location
+        region.span.latitudeDelta = 0.02
+        region.span.longitudeDelta = 0.02
+        myMap.setRegion(region,animated:true)
+        
+        // Specify the type of map to display
+        myMap.mapType = MKMapType.standard
+//        myMap.mapType = MKMapType.satellite
+//        myMap.mapType = MKMapType.hybrid
+//        myMap.mapType = MKMapType.satelliteFlyover
+//        myMap.mapType = MKMapType.hybridFlyover
+        
+        // You can set an annotation object if you like to say something about the location
+        let pin = MKPointAnnotation()
+        pin.coordinate = CLLocationCoordinate2DMake(49.28061, -123.122463)
+        pin.title = "iOS Development Meetup for Beginner"
+        pin.subtitle = " We will make an simple map app @ Waves Cofee!"
+        myMap.addAnnotation(pin)
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-    @IBAction func calc(_ sender: Any) {
-        // 現在日時
-        let now = Date()
-
-        // 誕生日
-        let birthday = myDate.date
-
-        // 人生最終予定日(８０歳を想定)
-        let endday = Date(timeInterval: 60*60*24*365*80, since: birthday)
-
-        // 現在日との差分を計算
-        let span = endday.timeIntervalSince(now)
-        
-        // 秒数を日数に変換
-        let anotherdays = Int(span/60/60/24)
-        
-        // labelに日数を表示
-        myLabel.text = "あなたの人生の残日数は約\(anotherdays)日です。"
-    }
-
 }
 ```
