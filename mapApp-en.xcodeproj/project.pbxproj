@@ -19,8 +19,6 @@
 		04E22BB71DD56AFB00390FDE /* mapApp_en.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E22BB51DD56AFB00390FDE /* mapApp_en.xcdatamodeld */; };
 		04E22BB91DD56AFB00390FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E22BB81DD56AFB00390FDE /* Assets.xcassets */; };
 		04E22BBC1DD56AFB00390FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E22BBA1DD56AFB00390FDE /* LaunchScreen.storyboard */; };
-		04E22BC71DD56AFB00390FDE /* mapApp_enTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E22BC61DD56AFB00390FDE /* mapApp_enTests.swift */; };
-		04E22BD21DD56AFB00390FDE /* mapApp_enUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E22BD11DD56AFB00390FDE /* mapApp_enUITests.swift */; };
 		04E22BE11DD56C7D00390FDE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E22BE01DD56C7D00390FDE /* MapKit.framework */; };
 		04E22BE41DD56F4500390FDE /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E22BE31DD56F4500390FDE /* map.png */; };
 /* End PBXBuildFile section */
@@ -58,11 +56,7 @@
 		04E22BBB1DD56AFB00390FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E22BBD1DD56AFB00390FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E22BC21DD56AFB00390FDE /* mapApp-enTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mapApp-enTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E22BC61DD56AFB00390FDE /* mapApp_enTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapApp_enTests.swift; sourceTree = "<group>"; };
-		04E22BC81DD56AFB00390FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E22BCD1DD56AFB00390FDE /* mapApp-enUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mapApp-enUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E22BD11DD56AFB00390FDE /* mapApp_enUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapApp_enUITests.swift; sourceTree = "<group>"; };
-		04E22BD31DD56AFB00390FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E22BE01DD56C7D00390FDE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		04E22BE31DD56F4500390FDE /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,8 +92,6 @@
 			children = (
 				04E22BE21DD56F4500390FDE /* Resourses */,
 				04E22BAD1DD56AFB00390FDE /* mapApp-en */,
-				04E22BC51DD56AFB00390FDE /* mapApp-enTests */,
-				04E22BD01DD56AFB00390FDE /* mapApp-enUITests */,
 				04E22BAC1DD56AFB00390FDE /* Products */,
 				04E22BDF1DD56C7C00390FDE /* Frameworks */,
 			);
@@ -127,24 +119,6 @@
 				04E22BB51DD56AFB00390FDE /* mapApp_en.xcdatamodeld */,
 			);
 			path = "mapApp-en";
-			sourceTree = "<group>";
-		};
-		04E22BC51DD56AFB00390FDE /* mapApp-enTests */ = {
-			isa = PBXGroup;
-			children = (
-				04E22BC61DD56AFB00390FDE /* mapApp_enTests.swift */,
-				04E22BC81DD56AFB00390FDE /* Info.plist */,
-			);
-			path = "mapApp-enTests";
-			sourceTree = "<group>";
-		};
-		04E22BD01DD56AFB00390FDE /* mapApp-enUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04E22BD11DD56AFB00390FDE /* mapApp_enUITests.swift */,
-				04E22BD31DD56AFB00390FDE /* Info.plist */,
-			);
-			path = "mapApp-enUITests";
 			sourceTree = "<group>";
 		};
 		04E22BDF1DD56C7C00390FDE /* Frameworks */ = {
@@ -321,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E22BC71DD56AFB00390FDE /* mapApp_enTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E22BD21DD56AFB00390FDE /* mapApp_enUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
