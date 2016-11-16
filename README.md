@@ -11,6 +11,9 @@
 ## We also hold face-to-face or group lesson for indivisual interested in making iOS app themselves
   http://ios-class-for-beginner.esy.es/
 
+## Development Environment
+  XCode 8.1 / Swift 3
+
 ## Full procedure
 
 #### 0, Import nessesary frameworks
