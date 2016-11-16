@@ -2,7 +2,7 @@
 
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/smaple.gif" /></div>
   
-  Thank you for visiting our account. We are going to make a simple map app in an hour. If would you like to study yourself before hands-on, or review what yo have learned in the session, please use the following material.
+  Thank you for visiting our account. We are going to make a simple map app in an hour. If would you like to study yourself before hands-on, or review what you have learned in the session, please use the following material.
   
 ## We are providing free hands-on on a monthly basis
   Meetup  
