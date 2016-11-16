@@ -11,24 +11,24 @@
 ## We also held face-to-face or group lesson for someone interested in making iOS app themselves
   http://ios-class-for-beginner.esy.es/
 
-## アプリ作成手順
+## Full procedure
 
 #### 0, Import nessesary frameworks
 > 0-1. Add "MappKit" Framework
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/1.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/1.gif" /></div>
 
 #### 1, Design app
 > 1-1. Drap & Drop "MapView" from UI components
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/2.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/2.gif" /></div>
 
 > 1-2. Resize MapView
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/3.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/3.gif" /></div>
 
 > 1-3. Set Auto-layout for adjusting frame depends on devices
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/4.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/4.gif" /></div>
 
 > 1-4. Connect UI components to ViewController.swift
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/5.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/5.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
   
