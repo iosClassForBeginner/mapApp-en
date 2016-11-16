@@ -2,13 +2,13 @@
 
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/smaple.gif" /></div>
   
-  Thank you for visiting the account. We are going to make simple mapp app in an hour. If you like to study yourself beforehands, or review about what you'd learned, please use the material.
+  Thank you for visiting our account. We are going to make a simple map app in an hour. If would you like to study yourself before hands-on, or review what yo have learned in the session, please use the following material.
   
 ## We are providing free hands-on on a monthly basis
   Meetup  
   https://www.meetup.com/iOS-Development-Meetup-for-Beginner/
   
-## We also held face-to-face or group lesson for someone interested in making iOS app themselves
+## We also hold face-to-face or group lesson for indivisual interested in making iOS app themselves
   http://ios-class-for-beginner.esy.es/
 
 ## Full procedure
@@ -24,10 +24,10 @@
 > 1-2. Resize MapView
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/3.gif" /></div>
 
-> 1-3. Set Auto-layout for adjusting frame depends on devices
+> 1-3. Set "Autoresizing" for adjusting frame depending on devices
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/4.gif" /></div>
 
-> 1-4. Connect UI components to ViewController.swift
+> 1-4. Connect UI components on Storyboard to ViewController.swift
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/5.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
