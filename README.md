@@ -16,21 +16,28 @@
 
 ## Full procedure
 
-#### 0, Import nessesary frameworks
-> 0-1. Add "MappKit" Framework
+#### 0, Create your project
+> 0-1. Open XCode
+> 0-2. Select "Create a new XCode project"
+> 0-3. Select "Single View Application" and then tap "Next"
+> 0-4. Fill "Product name" and then tap "Next"
+> 0-5. Select the place for saving your project and then tap "Create"
+
+#### 1, Import nessesary frameworks
+> 1-1. Add "MappKit" Framework
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/1.gif" /></div>
 
-#### 1, Design app
-> 1-1. Drap & Drop "MapView" from UI components
+#### 2, Design app
+> 2-1. Drap & Drop "MapView" from UI components
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/2.gif" /></div>
 
-> 1-2. Resize MapView
+> 2-2. Resize MapView
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/3.gif" /></div>
 
-> 1-3. Set "Autoresizing" for adjusting frame depending on devices
+> 2-3. Set "Autoresizing" for adjusting frame depending on devices
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/4.gif" /></div>
 
-> 1-4. Connect UI components on Storyboard to ViewController.swift
+> 2-4. Connect UI components on Storyboard to ViewController.swift
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/mapApp-en/blob/master/Resourses/5.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
